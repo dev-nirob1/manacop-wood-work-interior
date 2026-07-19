@@ -1,4 +1,5 @@
 import About from "../components/front/About";
+import CTA from "../components/front/CTA";
 import Hero from "../components/front/Hero";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <>
       <Hero />
       <About/>
+      <CTA/>
     </>
   )
 }
