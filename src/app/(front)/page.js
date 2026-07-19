@@ -3,6 +3,7 @@ import CTA from "../components/front/CTA";
 import Hero from "../components/front/Hero";
 import HowItWorks from "../components/front/HowItWorks";
 import WhyChooseUs from "../components/front/WhyChooseUs";
+import Testimonial from "../components/front/Testimonial";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <About/>
       <WhyChooseUs/>
       <HowItWorks/>
+      <Testimonial/>
       <CTA/>
     </>
   )
