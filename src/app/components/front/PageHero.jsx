@@ -19,7 +19,7 @@ const PageHero = ({ title, image, description }) => {
               {title}
             </h1>
             {description && (
-              <p className="text-white/70 mt-2 max-w-xl text-lg">
+              <p className="text-white mt-2 max-w-xl text-lg">
                 {description}
               </p>
             )}

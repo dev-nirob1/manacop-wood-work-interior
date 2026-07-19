@@ -3,6 +3,7 @@ import CTA from "@/app/components/front/CTA";
 import Founder from "@/app/components/front/Founder";
 import PageHero from "@/app/components/front/PageHero";
 import Team from "@/app/components/front/Team";
+// import Workshop from "@/app/components/front/Workshop";
 
 const AboutPage = () => {
     return (
@@ -14,6 +15,7 @@ const AboutPage = () => {
             <About />
             <Founder/>
             <Team/>
+            {/* <Workshop/> */}
 
             <CTA />
         </>
