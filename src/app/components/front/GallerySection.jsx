@@ -63,7 +63,7 @@ const GallerySection = () => {
                 src={item.image}
                 alt={item.title}
                 fill
-                sizes=""
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-linear-to-t from-black/75 via-black/0 to-transparent" />

@@ -99,6 +99,7 @@ const Craftsmanship = () => {
             src="/images/gallery/gallery-1.avif"
             alt="Craftsmanship in progress"
             fill
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             className="object-cover"
           />
         </div>

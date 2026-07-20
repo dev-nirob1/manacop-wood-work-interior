@@ -11,6 +11,7 @@ const CTA = () => {
           src="/images/cta.png"
           alt="Premium woodworking banner background"
           fill
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           className="object-cover"
         />
         <div className="absolute inset-0 bg-black/50" />
@@ -24,7 +25,7 @@ const CTA = () => {
         </h2>
 
         <p className="max-w-xl text-base sm:text-lg text-white/80 font-light">
-          Every custom piece begins with a conversation. Share your vision with us, and let's craft something designed to last generations.
+          Every custom piece begins with a conversation. Share your vision with us, and let&apos;s craft something designed to last generations.
         </p>
 
         <Link

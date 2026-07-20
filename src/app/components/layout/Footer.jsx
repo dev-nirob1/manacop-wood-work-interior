@@ -35,7 +35,7 @@ const Footer = () => {
           <div className="space-y-4 lg:col-span-2">
             <Link href="/" className="block">
               <Image
-                height={50}
+                height={70}
                 width={60}
                 src="/logo.png"
                 alt="Logo"

@@ -51,6 +51,7 @@ const FeaturedProject = () => {
                         src={src}
                         alt={`Featured project ${index + 1}`}
                         fill
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                         className="object-cover"
                       />
                     </div>
@@ -73,6 +74,7 @@ const FeaturedProject = () => {
                       src={src}
                       alt={`Thumbnail ${index + 1}`}
                       fill
+                      sizes="64px"
                       className="object-cover"
                     />
                   </div>

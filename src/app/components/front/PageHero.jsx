@@ -7,6 +7,7 @@ const PageHero = ({ title, image, description }) => {
         src={`${image ? image : "/images/about-hero.avif"}`}
         alt={title}
         fill
+        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
         priority
         className="object-cover -z-10"
       />

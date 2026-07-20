@@ -85,7 +85,7 @@ const About = () => {
             {/* Learn More Button */}
           { pathname !== '/about' && <Link href="/about">
               <button className="px-8 py-3 rounded-sm font-medium text-white transition-all duration-300 hover:opacity-90 bg-primary">
-                Learn More About Us
+                Learn More
               </button>
             </Link>}
           </div>

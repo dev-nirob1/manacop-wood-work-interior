@@ -76,6 +76,7 @@ const Team = () => {
                   src={member.image}
                   alt={member.name}
                   fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="object-cover"
                 />
                 <div className="absolute inset-0 bg-dark/0 group-hover:bg-dark/40 transition-colors flex items-end justify-center pb-4 opacity-0 group-hover:opacity-100">
