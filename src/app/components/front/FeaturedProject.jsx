@@ -126,7 +126,7 @@ const FeaturedProject = () => {
 
             <Link
               href="/contact"
-              className="w-fit flex items-center gap-2 rounded-sm px-7 py-3 text-white font-medium bg-linear-to-r from-primary to-secondary hover:opacity-90 transition-opacity mt-2"
+              className="w-fit flex items-center gap-2 rounded-sm px-7 py-3 text-white font-bold bg-primary hover:opacity-90 transition-opacity mt-2"
             >
               Start Your Custom Project <FaArrowRight className="text-sm" />
             </Link>

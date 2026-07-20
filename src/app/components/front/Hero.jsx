@@ -42,8 +42,8 @@ const Hero = () => {
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/portfolio">
-              <button className="group px-8 py-3.5 rounded-sm font-medium text-white transition-all duration-300 hover:opacity-90 hover:scale-105 bg-linear-to-r from-primary to-secondary shadow-lg shadow-primary/30 flex items-center gap-2">
+            <Link href="/gallery">
+              <button className="group px-8 py-3.5 rounded-sm font-medium text-white transition-all duration-300 hover:opacity-90 bg-primary flex items-center gap-2">
                 <span>Explore Our Portfolio</span>
                 <svg 
                   className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" 
@@ -57,7 +57,7 @@ const Hero = () => {
             </Link>
             
             <Link href="/contact">
-              <button className="px-8 py-3.5 rounded-sm font-medium text-white transition-all duration-300 hover:bg-white/20 border-2 border-white/80 hover:border-white flex items-center gap-2">
+              <button className="px-8 py-3.5 rounded-sm font-medium text-white transition-all duration-300 hover:bg-white/20 border border-white/80 hover:border-white flex items-center gap-2">
                 <span>Get a Free Quote</span>
               </button>
             </Link>

@@ -41,7 +41,7 @@ const GallerySection = () => {
               onClick={() => setActiveFilter(category)}
               className={`px-5 py-2 rounded-sm text-sm font-medium transition-colors ${
                 activeFilter === category
-                  ? "bg-linear-to-r from-primary to-secondary text-white"
+                  ? "bg-primary text-white"
                   : "bg-secondary/10 text-dark hover:bg-secondary/20"
               }`}
             >

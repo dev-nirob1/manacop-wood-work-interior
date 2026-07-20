@@ -1,9 +1,13 @@
+'use client'
 import Image from "next/image";
 import Link from "next/link";
 import { FaCheckCircle, FaHome, FaUsers, FaTrophy } from "react-icons/fa";
 import SectionHeader from "../common/SectionHeader";
+import { usePathname } from "next/navigation";
 
 const About = () => {
+  const pathname = usePathname();
+
   const features = [
     "Custom Home Building",
     "Commercial Construction",
@@ -26,7 +30,7 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Left - Image */}
           <div className="relative">
-            <div className="relative rounded-lg overflow-hidden shadow-xl max-h-[650px]">
+            <div className="relative rounded-lg overflow-hidden shadow-xl max-h-150">
               <Image
                 height={400}
                 width={500}
@@ -50,9 +54,9 @@ const About = () => {
 
             <p className="text-gray-600 leading-relaxed mb-4">
               <span className="font-semibold text-dark">
-                Manacop Construction Services
+                Manacop Construction Services 
               </span>
-              is a custom home and small scale commercial builder and remodeling
+               is a custom home and small scale commercial builder and remodeling
               company dedicated to building high quality and long-lasting homes.
             </p>
 
@@ -72,18 +76,18 @@ const About = () => {
             <div className="grid grid-cols-2 gap-3 mb-8">
               {features.map((feature, index) => (
                 <div key={index} className="flex items-center gap-2">
-                  <FaCheckCircle className="text-primary text-sm flex-shrink-0" />
+                  <FaCheckCircle className="text-primary text-sm shrink-0" />
                   <span className="text-sm text-gray-700">{feature}</span>
                 </div>
               ))}
             </div>
 
             {/* Learn More Button */}
-            <Link href="/about">
-              <button className="px-8 py-3 rounded-sm font-medium text-white transition-all duration-300 hover:opacity-90 hover:scale-105 bg-linear-to-r from-primary to-secondary shadow-lg shadow-primary/30">
+          { pathname !== '/about' && <Link href="/about">
+              <button className="px-8 py-3 rounded-sm font-medium text-white transition-all duration-300 hover:opacity-90 bg-primary">
                 Learn More About Us
               </button>
-            </Link>
+            </Link>}
           </div>
         </div>
       </div>

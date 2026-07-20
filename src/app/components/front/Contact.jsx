@@ -8,13 +8,13 @@ const Contact = () => {
 
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-16 bg-white">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-[1fr_1.3fr] gap-10 md:gap-16">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-[1fr_1.3fr] gap-10 md:gap-16">
         {/* Contact Info */}
-        <div className="bg-dark rounded-2xl p-8 flex flex-col gap-6">
+        <div className="bg-dark rounded-lg p-8 flex flex-col gap-6">
           <div>
             <h3 className="text-xl font-semibold text-white mb-2">Get in Touch</h3>
-            <p className="text-white/60 text-sm leading-relaxed">
-              We'd love to hear about your project. Reach out through any of
+            <p className="text-white/60 leading-relaxed">
+              We&apos;d love to hear about your project. Reach out through any of
               the channels below.
             </p>
           </div>
@@ -72,7 +72,7 @@ const Contact = () => {
         </div>
 
         {/* Form */}
-        <form className="flex flex-col gap-6 bg-secondary/10 p-7 sm:p-9 rounded-sm">
+        <form className="flex flex-col gap-6 bg-secondary/10 p-7 sm:p-9 rounded-lg">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <input type="text" placeholder="Name" className={inputStyle} />
             <input type="email" placeholder="Email" className={inputStyle} />
@@ -96,7 +96,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="w-fit rounded-sm px-8 py-3 text-white font-medium bg-linear-to-r from-primary to-secondary hover:opacity-90 transition-opacity"
+            className="w-fit rounded-sm px-8 py-3 text-white font-medium bg-primary hover:opacity-90 transition-opacity"
           >
             Send Message
           </button>

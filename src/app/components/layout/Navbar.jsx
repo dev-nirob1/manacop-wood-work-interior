@@ -16,7 +16,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-white w-full shadow-sm relative z-50 py-3">
+    <nav className="bg-[#fff] w-full shadow-sm relative z-999 py-3">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -26,12 +26,12 @@ const Navbar = () => {
             </Link>
           </div>
           {/* Center Links - hidden on mobile */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-8 uppercase">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
                 href={link.href}
-                className="text-dark font-medium hover:text-primary transition-colors"
+                className="text-black font-medium hover:text-primary transition-colors"
               >
                 {link.name}
               </Link>
@@ -42,7 +42,7 @@ const Navbar = () => {
           <div className="flex items-center gap-4">
             <Link
               href="/contact"
-              className="rounded-sm px-5 py-2 text-white font-medium bg-linear-to-r from-primary to-secondary hover:opacity-90 transition-opacity"
+              className="rounded-sm uppercase px-5 py-3 text-white font-medium bg-primary hover:opacity-90 transition-opacity"
             >
               Contact Us
             </Link>

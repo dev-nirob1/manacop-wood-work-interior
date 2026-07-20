@@ -8,6 +8,7 @@ const ServicesPage = () => {
             <PageHero
                 title="Our Services"
                 description="From initial design concepts to final installation, we provide complete custom furniture and interior solutions tailored to your space and lifestyle."
+                image="/images/services-hero.avif"
             />
             <ServicesSection/>
             <CTA />

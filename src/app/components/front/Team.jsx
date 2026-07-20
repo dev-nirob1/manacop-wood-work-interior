@@ -98,10 +98,10 @@ const Team = () => {
                 </div>
               </div>
 
-              <div className="p-3 text-center">
+              <div className="py-5 px-4">
                 <h3 className="text-lg font-semibold text-dark">{member.name}</h3>
-                <p className="text-sm text-primary mb-2 font-bold">{member.role}</p>
-                <p className=" text-dark/60 leading-relaxed">{member.bio}</p>
+                <p className="text-sm text-primary mb-3 font-bold">{member.role}</p>
+                <p className=" text-dark leading-relaxed">{member.bio}</p>
               </div>
             </div>
           ))}

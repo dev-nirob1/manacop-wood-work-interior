@@ -79,7 +79,12 @@ const Testimonials = () => {
                 </div>
                 <div className="mt-auto pt-4 border-t border-secondary/20 flex items-center gap-3">
                   <div className="relative w-11 h-11 shrink-0 rounded-full overflow-hidden">
-                    <Image src={item.image} alt={item.name} fill className="object-cover" />
+                    <Image
+                      src={item.image}
+                      alt={item.name}
+                      fill
+                      className="object-cover"
+                    />
                   </div>
                   <div>
                     <h4 className="font-semibold text-dark">{item.name}</h4>

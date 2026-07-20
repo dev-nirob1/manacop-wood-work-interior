@@ -8,6 +8,7 @@ const ContactPage = () => {
             <PageHero
                 title="Contact Us"
                 description="Have a project in mind? Reach out and let's talk about how we can bring it to life."
+                image="/images/contact-hero.avif"
             />
             <Contact />
             <MapSection/>

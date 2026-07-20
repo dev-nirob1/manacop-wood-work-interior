@@ -10,7 +10,8 @@ const Gallery = () => {
     <main>
       <PageHero
         title="Our Gallery"
-        description="Explore our finest work and get inspired for your next project."
+        description="Explore our collection of custom furniture and interior projects, showcasing timeless designs, skilled craftsmanship, and attention to every detail."
+        image="/images/gallery-hero.avif"
       />
       <GallerySection />
       <FeaturedProject />

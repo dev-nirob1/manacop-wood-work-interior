@@ -13,7 +13,7 @@ const PageHero = ({ title, image, description }) => {
 
       <div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="border-l-4 border-white p-8 max-w-xl bg-primary/60">
+          <div className="border-l-4 border-white p-8 max-w-xl bg-primary/70">
             <h1 className="text-3xl sm:text-4xl font-bold text-white">
               {title}
             </h1>
