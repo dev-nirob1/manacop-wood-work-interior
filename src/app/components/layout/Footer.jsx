@@ -30,9 +30,9 @@ const Footer = () => {
   return (
     <footer className="bg-dark text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {/* Logo & Description */}
-          <div className="space-y-4">
+          <div className="space-y-4 lg:col-span-2">
             <Link href="/" className="block">
               <Image height={50} width={60}
                 src="/logo.png"
@@ -40,10 +40,28 @@ const Footer = () => {
                 className="h-15 w-auto object-contain"
               />
             </Link>
-            <p className="text-gray-300 text-sm leading-relaxed">
+            <p className="text-gray-300 text-lg leading-relaxed">
               Crafting exceptional woodwork with precision and passion. 
               Bringing your visions to life through timeless craftsmanship.
             </p>
+                        {/* Social Links */}
+            <div className="flex space-x-4 mt-6">
+              {socialLinks.map((social) => {
+                const Icon = social.icon;
+                return (
+                  <a
+                    key={social.label}
+                    href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={social.label}
+                    className="w-9 h-9 flex items-center justify-center rounded-sm bg-white/10 hover:bg-primary transition-colors"
+                  >
+                    <Icon size={20} />
+                  </a>
+                );
+              })}
+            </div>
           </div>
 
           {/* Quick Links */}
@@ -59,25 +77,6 @@ const Footer = () => {
                     className="text-gray-300 hover:text-primary transition-colors duration-200"
                   >
                     {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Services */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4 text-secondary">
-              Services
-            </h3>
-            <ul className="space-y-2">
-              {services.map((service) => (
-                <li key={service.name}>
-                  <Link
-                    href={service.href}
-                    className="text-gray-300 hover:text-primary transition-colors duration-200"
-                  >
-                    {service.name}
                   </Link>
                 </li>
               ))}
@@ -111,24 +110,7 @@ const Footer = () => {
               </li>
             </ul>
 
-            {/* Social Links */}
-            <div className="flex space-x-4 mt-6">
-              {socialLinks.map((social) => {
-                const Icon = social.icon;
-                return (
-                  <a
-                    key={social.label}
-                    href={social.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={social.label}
-                    className="w-9 h-9 flex items-center justify-center rounded-sm bg-white/10 hover:bg-primary transition-colors"
-                  >
-                    <Icon size={20} />
-                  </a>
-                );
-              })}
-            </div>
+
           </div>
         </div>
 
