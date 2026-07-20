@@ -96,7 +96,7 @@ const Craftsmanship = () => {
         {/* Image */}
         <div className="relative w-full aspect-4/5 sm:aspect-square rounded-sm overflow-hidden">
           <Image
-            src="/images/gallery/gallery-1.avif"
+            src="/images/workshop/workshop-1.avif"
             alt="Craftsmanship in progress"
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
