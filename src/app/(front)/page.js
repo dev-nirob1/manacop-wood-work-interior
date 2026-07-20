@@ -5,6 +5,7 @@ import HowItWorks from "../components/front/HowItWorks";
 import WhyChooseUs from "../components/front/WhyChooseUs";
 import Testimonial from "../components/front/Testimonial";
 import FAQ from "../components/front/FAQ";
+import Workshop from "../components/front/Workshop";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Hero />
       <About />
       <WhyChooseUs />
+      <Workshop />
       <HowItWorks />
       <Testimonial />
       <FAQ />

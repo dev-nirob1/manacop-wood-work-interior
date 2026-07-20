@@ -67,7 +67,7 @@ const Testimonials = () => {
             <SwiperSlide key={item.name}>
               <div className="relative h-full flex flex-col gap-4 p-8 rounded-sm border border-secondary bg-white">
                 <FaQuoteLeft className="text-3xl text-primary/30" />
-                <p className="text-dark leading-relaxed">
+                <p className="text-dark text-lg leading-relaxed">
                   {item.quote}
                 </p>
                 <div className="flex gap-1 text-yellow-500">
