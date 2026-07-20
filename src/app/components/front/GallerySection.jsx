@@ -31,7 +31,7 @@ const GallerySection = () => {
 
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-16 bg-white">
-      <div className="max-w-6xl mx-auto flex flex-col gap-10">
+      <div className="max-w-7xl mx-auto flex flex-col gap-10">
         {/* Filter */}
         <div className="flex flex-wrap justify-center gap-3">
           {categories.map((category) => (
@@ -57,7 +57,7 @@ const GallerySection = () => {
               key={item.title}
               type="button"
               onClick={() => handleCardClick(item)}
-              className="group relative w-full aspect-[3/4] rounded-sm overflow-hidden text-left"
+              className="group relative w-full aspect-3/4 rounded-sm overflow-hidden text-left"
             >
               <Image
                 src={item.image}
