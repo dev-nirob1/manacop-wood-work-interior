@@ -9,10 +9,10 @@ import "swiper/css";
 import SectionHeader from "../common/SectionHeader";
 
 const images = [
-  "/images/gallery/gallery-1.avif",
-  "/images/gallery/gallery-2.avif",
-  "/images/gallery/gallery-3.avif",
-  "/images/gallery/gallery-4.avif",
+  "/images/featured/featured-3.avif",
+  "/images/featured/featured-4.avif",
+  "/images/featured/featured-1.avif",
+  "/images/featured/featured-2.avif",
 ];
 
 const projectDetails = [

@@ -5,12 +5,12 @@ import Image from "next/image";
 import { FaPlus } from "react-icons/fa";
 
 const galleryItems = [
-  { title: "Custom Dining Table", category: "Furniture", tag: "Solid Oak Finish", image: "/images/gallery/gallery-1.avif" },
-  { title: "Kitchen Cabinetry", category: "Kitchen", tag: "Modern Walnut Build", image: "/images/gallery/gallery-2.avif" },
-  { title: "Staircase Renovation", category: "Interior", tag: "Reclaimed Wood", image: "/images/gallery/gallery-3.avif" },
-  { title: "Commercial Fit-out", category: "Interior", tag: "Office Interior", image: "/images/gallery/gallery-4.avif" },
-  { title: "Built-in Cabinetry", category: "Furniture", tag: "Living Room Storage", image: "/images/gallery/gallery-2.avif" },
-  { title: "Outdoor Deck", category: "Exterior", tag: "Weatherproof Timber", image: "/images/gallery/gallery-1.avif" },
+  { title: "Custom Dining Table", category: "Furniture", tag: "Solid Oak Finish", image: "/images/galleries/custom-dining.avif" },
+  { title: "Kitchen Cabinetry", category: "Kitchen", tag: "Modern Walnut Build", image: "/images/galleries/kitchen-cabinet.avif" },
+  { title: "Staircase Renovation", category: "Interior", tag: "Reclaimed Wood", image: "/images/galleries/staircase.avif" },
+  { title: "Commercial Fit-out", category: "Interior", tag: "Office Interior", image: "/images/galleries/commercial.avif" },
+  { title: "Built-in Cabinetry", category: "Furniture", tag: "Living Room Storage", image: "/images/galleries/cabinetry.avif" },
+  { title: "Outdoor Deck", category: "Exterior", tag: "Weatherproof Timber", image: "/images/galleries/deck.avif" },
 ];
 
 const categories = ["All", "Furniture", "Kitchen", "Interior", "Exterior"];
@@ -63,6 +63,7 @@ const GallerySection = () => {
                 src={item.image}
                 alt={item.title}
                 fill
+                sizes=""
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-linear-to-t from-black/75 via-black/0 to-transparent" />

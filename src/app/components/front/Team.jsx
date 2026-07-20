@@ -9,37 +9,42 @@ const team = [
     name: "Marcelo Malveda",
     role: "Mechanical Engineer",
     bio: "From Tanauan City, Batangas. Graduated from Mapua Institute of Technology with a B.S. in Mechanical Engineering, giving him the skills to take a design from concept to finish.",
-    image: "/images/founder.avif",
+    image: "/images/testimonials/profile-2.avif",
+
   },
   {
     name: "Anna Cruz",
     role: "Lead Architect",
     bio: "From Lipa City, Batangas. Holds a B.S. in Architecture from the University of Santo Tomas, with a focus on blending traditional Filipino design with modern functionality.",
-    image: "/images/founder.avif",
+    image: "/images/testimonials/profile-3.avif",
+
   },
   {
     name: "Marco Villanueva",
     role: "Master Carpenter",
     bio: "From San Pablo, Laguna. Over 15 years on the tools, trained under his father in traditional woodworking before mastering modern joinery and finishing techniques.",
-    image: "/images/founder.avif",
+    image: "/images/testimonials/profile-4.avif",
+
   },
   {
     name: "Liza Fernandez",
     role: "Interior Designer",
     bio: "From Antipolo, Rizal. A graduate of the College of Saint Benilde's Interior Design program, she specializes in turning empty spaces into warm, livable homes.",
-    image: "/images/founder.avif",
+    image: "/images/testimonials/profile-1.avif",
+
   },
   {
     name: "Carlos Mendoza",
     role: "Site Supervisor",
     bio: "From Calamba, Laguna. Started as a laborer and worked his way up over a decade, now overseeing daily operations to keep every project safe and on schedule.",
-    image: "/images/founder.avif",
+    image: "/images/testimonials/profile-5.avif",
+
   },
   {
     name: "Sofia Ramos",
     role: "Client Relations Manager",
     bio: "From Batangas City. A communications graduate from De La Salle Lipa, she makes sure every client stays informed and confident from first call to final walkthrough.",
-    image: "/images/founder.avif",
+    image: "/images/testimonials/profile-6.avif",
   },
 ];
 const Team = () => {
@@ -66,7 +71,7 @@ const Team = () => {
               key={member.name + member.role}
               className="group rounded-lg overflow-hidden border border-secondary/30"
             >
-              <div className="relative w-full aspect-4/5 max-h-[350px]">
+              <div className="relative w-full aspect-4/5 max-h-87.5">
                 <Image
                   src={member.image}
                   alt={member.name}

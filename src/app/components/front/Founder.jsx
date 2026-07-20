@@ -3,11 +3,11 @@ import SectionHeader from "../common/SectionHeader";
 
 const Founder = () => {
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-16 bg-primary/30">
+    <section className="py-16 px-4 sm:px-6 lg:px-16 bg-secondary/30">
       <div className="max-w-5xl mx-auto grid md:grid-cols-[280px_1fr] gap-10 items-center">
         <div className="relative w-full max-w-xs mx-auto md:mx-0">
           <div className="absolute -top-3 -left-3 w-full h-full border-2 border-primary rounded-sm" />
-          <div className="relative w-full aspect-[4/5] rounded-sm overflow-hidden">
+          <div className="relative w-full aspect-4/5 rounded-sm overflow-hidden">
             <Image
               src="/images/founder.avif"
               alt="Robert Manacop, Founder"
@@ -26,7 +26,7 @@ const Founder = () => {
           />{" "}
           <p className="text-xl font-semibold text-dark leading-relaxed mb-6 -mt-2">
             Every piece we build carries a story. My goal has always been to
-            create furniture that outlasts trends and becomes part of a family's
+            create furniture that outlasts trends and becomes part of a family&apos;s
             history.
           </p>
           <h3 className="text-lg font-semibold text-dark">Robert Manacop</h3>
