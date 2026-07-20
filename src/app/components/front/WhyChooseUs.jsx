@@ -47,7 +47,7 @@ const WhyChooseUs = () => {
             return (
               <div
                 key={index}
-                className="flex flex-col items-center text-center gap-4 p-6 rounded-sm border border-secondary/30 bg-white/50 hover:bg-white transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
+                className="flex flex-col items-center text-center gap-4 p-6 rounded-sm border border-secondary/30 bg-white transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
               >
                 <div className="w-14 h-14 flex items-center justify-center rounded-sm bg-linear-to-r from-primary to-secondary text-white text-2xl">
                   <Icon />

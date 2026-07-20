@@ -34,17 +34,21 @@ const Footer = () => {
           {/* Logo & Description */}
           <div className="space-y-4 lg:col-span-2">
             <Link href="/" className="block">
-              <Image height={50} width={60}
+              <Image
+                height={50}
+                width={60}
                 src="/logo.png"
                 alt="Logo"
                 className="h-15 w-auto object-contain"
               />
             </Link>
-            <p className="text-gray-300 text-lg leading-relaxed">
-              Crafting exceptional woodwork with precision and passion. 
-              Bringing your visions to life through timeless craftsmanship.
+            <p className="text-gray-300 text-base leading-relaxed">
+              We create bespoke furniture pieces that combine timeless design,
+              exceptional craftsmanship, and premium materials. From concept to
+              completion, every piece is thoughtfully crafted to bring your
+              vision to life and transform your space with lasting beauty.
             </p>
-                        {/* Social Links */}
+            {/* Social Links */}
             <div className="flex space-x-4 mt-6">
               {socialLinks.map((social) => {
                 const Icon = social.icon;
@@ -66,7 +70,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-secondary">
+            <h3 className="text-lg font-semibold mb-4 text-primary">
               Quick Links
             </h3>
             <ul className="space-y-2">
@@ -85,32 +89,37 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-secondary">
+            <h3 className="text-lg font-semibold mb-4 text-primary">
               Contact Info
             </h3>
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <IoLocation className="text-primary text-xl shrink-0 mt-1" />
                 <span className="text-gray-300 text-sm">
-                  123 Woodwork Street,<br />
+                  123 Woodwork Street,
+                  <br />
                   Craft City, CC 12345
                 </span>
               </li>
               <li className="flex items-center space-x-3">
                 <IoCall className="text-primary text-xl shrink-0" />
-                <a href="tel:+1234567890" className="text-gray-300 hover:text-primary transition-colors duration-200 text-sm">
+                <a
+                  href="tel:+1234567890"
+                  className="text-gray-300 hover:text-primary transition-colors duration-200 text-sm"
+                >
                   +1 (234) 567-890
                 </a>
               </li>
               <li className="flex items-center space-x-3">
                 <IoMail className="text-primary text-xl shrink-0" />
-                <a href="mailto:info@manacopwoodwork.com" className="text-gray-300 hover:text-primary transition-colors duration-200 text-sm">
+                <a
+                  href="mailto:info@manacopwoodwork.com"
+                  className="text-gray-300 hover:text-primary transition-colors duration-200 text-sm"
+                >
                   info@manacopwoodwork.com
                 </a>
               </li>
             </ul>
-
-
           </div>
         </div>
 
