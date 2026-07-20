@@ -34,7 +34,7 @@ const FeaturedProject = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-16 bg-primary/30">
+    <section className="py-16 px-4 sm:px-6 lg:px-16 bg-white">
       <div className="max-w-7xl mx-auto flex flex-col gap-12">
         <div className="grid lg:grid-cols-[1.2fr_1fr] gap-8">
           {/* Image + Thumbnails */}
@@ -102,9 +102,7 @@ const FeaturedProject = () => {
               {projectDetails.map((detail) => (
                 <div key={detail.label}>
                   <p className="text-xs text-dark/80">{detail.label}</p>
-                  <p className="text-sm font-bold text-dark">
-                    {detail.value}
-                  </p>
+                  <p className="text-sm font-bold text-dark">{detail.value}</p>
                 </div>
               ))}
             </div>

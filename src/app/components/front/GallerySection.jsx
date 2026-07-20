@@ -30,7 +30,7 @@ const GallerySection = () => {
   };
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-16 bg-white">
+    <section className="py-16 px-4 sm:px-6 lg:px-16">
       <div className="max-w-7xl mx-auto flex flex-col gap-10">
         {/* Filter */}
         <div className="flex flex-wrap justify-center gap-3">
